@@ -1,0 +1,84 @@
+{
+ "n_ml_resolution_mismatch": 0,
+ "n_ml_unresolved_or_5050": 23,
+ "n_spread_resolution_mismatch": 1,
+ "n_total_resolution_mismatch": 1,
+ "n_unmatched_espn": 97,
+ "n_wallclock_anomalies": 45,
+ "n_pm_start_vs_espn_sched": 44,
+ "n_first_play_not_jumpball": 14,
+ "n_final_score_pbp_mismatch": 27,
+ "n_pm_score_differs_espn": 23,
+ "n_ml_names_not_matched": 0,
+ "n_ml_outcome0_not_away": 6,
+ "n_home_away_swapped": 2,
+ "n_score_backsteps_clock_order": 379,
+ "n_slug_date_not_et_date": 97,
+ "n_main_line_far_from_book": 198,
+ "n_duplicate_pm_events": 16,
+ "n_postponed": 6,
+ "n_trades_volume_gap": 64,
+ "n_trades_missing": 0,
+ "n_prices_missing_or_empty": 17,
+ "print_vs_gamma_volume_by_fee_type": {
+  "none": {
+   "markets": 4516,
+   "within_1e4": 4482,
+   "median_rel_gap": 0.0,
+   "min_rel_gap": -0.02292,
+   "max_rel_gap": 0.58279
+  },
+  "sports_fees_v2": {
+   "markets": 166,
+   "within_1e4": 146,
+   "median_rel_gap": 0.0,
+   "min_rel_gap": -0.41723,
+   "max_rel_gap": 0.0109
+  },
+  "sports_fees_v2 (games to 2026-04-28)": {
+   "markets": 456,
+   "within_1e4": 5,
+   "median_rel_gap": -0.02563,
+   "min_rel_gap": -0.0386,
+   "max_rel_gap": 0.0
+  },
+  "sports_fees_v3": {
+   "markets": 255,
+   "within_1e4": 245,
+   "median_rel_gap": 0.0,
+   "min_rel_gap": -0.0,
+   "max_rel_gap": 0.06887
+  },
+  "zero_fees": {
+   "markets": 264,
+   "within_1e4": 264,
+   "median_rel_gap": 0.0,
+   "min_rel_gap": -0.0,
+   "max_rel_gap": 0.0
+  }
+ },
+ "trades_price_outside_0_1": 0,
+ "trades_size_nonpositive": 0,
+ "trades_token_unmatched": 0,
+ "trades_side_values": [
+  "BUY",
+  "SELL"
+ ],
+ "trades_before_market_created": 0,
+ "trades_after_market_closed": 677,
+ "n_print_gap_windows": 6,
+ "n_suspected_print_outages": 4,
+ "n_games_in_print_outages": 15,
+ "print_outage_minutes_total": 137.1,
+ "prices_outside_0_1": 238,
+ "prices_outside_0_1_markets": [
+  "517327"
+ ],
+ "n_espn_games_without_pm_event": 15,
+ "n_games": 2994,
+ "n_trades_rows": 12601950,
+ "n_price_rows": 7190986,
+ "n_pbp_rows": 1387738,
+ "n_pickcenter_rows": 5858,
+ "built_at": "2026-11-04T08:21:19.017908+00:00"
+}

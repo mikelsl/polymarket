@@ -1,0 +1,3 @@
+match_id,kickoff_utc,home_team_pm,away_team_pm,home_score,away_score,pm_result,espn_result,resolution_check,espn_status,is_duplicate_event,is_primary_event,event_score
+fl1-nan-tou-2026-05-17,2026-05-17 19:00:00+00:00,FC Nantes,Toulouse FC,0.0,0.0,D,D,espn_abandoned,STATUS_ABANDONED,False,True,0-0
+lal-ray-bil-2026-10-10,2026-10-10 12:00:00+00:00,Rayo Vallecano de Madrid,Athletic Club,,,UNRESOLVED,,pm_unresolved,,False,True,0-0

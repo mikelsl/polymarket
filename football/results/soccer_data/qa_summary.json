@@ -1,0 +1,945 @@
+{
+ "coverage_by_league": [
+  {
+   "season": "2025-26",
+   "league": "bun",
+   "espn_fixtures": 306,
+   "pm_events": 306,
+   "linked": 306,
+   "ou25": 223,
+   "btts": 239,
+   "prices_1x2": 306,
+   "trades_1x2": 306,
+   "odds": 306,
+   "espn_summary": 306,
+   "resolved_match": 306
+  },
+  {
+   "season": "2025-26",
+   "league": "epl",
+   "espn_fixtures": 380,
+   "pm_events": 380,
+   "linked": 380,
+   "ou25": 290,
+   "btts": 297,
+   "prices_1x2": 380,
+   "trades_1x2": 380,
+   "odds": 380,
+   "espn_summary": 380,
+   "resolved_match": 380
+  },
+  {
+   "season": "2025-26",
+   "league": "fl1",
+   "espn_fixtures": 306,
+   "pm_events": 304,
+   "linked": 304,
+   "ou25": 216,
+   "btts": 207,
+   "prices_1x2": 304,
+   "trades_1x2": 304,
+   "odds": 304,
+   "espn_summary": 304,
+   "resolved_match": 303
+  },
+  {
+   "season": "2025-26",
+   "league": "lal",
+   "espn_fixtures": 380,
+   "pm_events": 380,
+   "linked": 380,
+   "ou25": 283,
+   "btts": 291,
+   "prices_1x2": 380,
+   "trades_1x2": 380,
+   "odds": 380,
+   "espn_summary": 380,
+   "resolved_match": 380
+  },
+  {
+   "season": "2025-26",
+   "league": "sea",
+   "espn_fixtures": 380,
+   "pm_events": 379,
+   "linked": 379,
+   "ou25": 303,
+   "btts": 304,
+   "prices_1x2": 379,
+   "trades_1x2": 379,
+   "odds": 379,
+   "espn_summary": 379,
+   "resolved_match": 379
+  },
+  {
+   "season": "2026-27",
+   "league": "bun",
+   "espn_fixtures": 72,
+   "pm_events": 72,
+   "linked": 72,
+   "ou25": 72,
+   "btts": 72,
+   "prices_1x2": 72,
+   "trades_1x2": 72,
+   "odds": 72,
+   "espn_summary": 72,
+   "resolved_match": 72
+  },
+  {
+   "season": "2026-27",
+   "league": "epl",
+   "espn_fixtures": 90,
+   "pm_events": 90,
+   "linked": 90,
+   "ou25": 90,
+   "btts": 90,
+   "prices_1x2": 90,
+   "trades_1x2": 90,
+   "odds": 90,
+   "espn_summary": 90,
+   "resolved_match": 90
+  },
+  {
+   "season": "2026-27",
+   "league": "fl1",
+   "espn_fixtures": 81,
+   "pm_events": 81,
+   "linked": 81,
+   "ou25": 81,
+   "btts": 81,
+   "prices_1x2": 81,
+   "trades_1x2": 81,
+   "odds": 81,
+   "espn_summary": 81,
+   "resolved_match": 81
+  },
+  {
+   "season": "2026-27",
+   "league": "lal",
+   "espn_fixtures": 109,
+   "pm_events": 110,
+   "linked": 109,
+   "ou25": 110,
+   "btts": 110,
+   "prices_1x2": 110,
+   "trades_1x2": 110,
+   "odds": 109,
+   "espn_summary": 109,
+   "resolved_match": 109
+  },
+  {
+   "season": "2026-27",
+   "league": "sea",
+   "espn_fixtures": 100,
+   "pm_events": 100,
+   "linked": 100,
+   "ou25": 100,
+   "btts": 100,
+   "prices_1x2": 100,
+   "trades_1x2": 100,
+   "odds": 100,
+   "espn_summary": 100,
+   "resolved_match": 100
+  }
+ ],
+ "markets_1x2": 6612,
+ "markets_trades_fetched": 6612,
+ "trade_volume_ratio_quantiles": {
+  "count": 6217.0,
+  "mean": 0.9979,
+  "std": 0.0075,
+  "min": 0.921,
+  "1%": 0.9661,
+  "5%": 0.9759,
+  "50%": 1.0,
+  "95%": 1.0,
+  "99%": 1.0,
+  "max": 1.0089
+ },
+ "markets_volume_missing": 395,
+ "markets_zero_prints": 0,
+ "markets_ratio_outside_2pct": 832,
+ "price_tokens": 10171,
+ "price_tokens_zero_points": 3,
+ "price_points_per_token_quantiles": {
+  "count": 10171.0,
+  "mean": 504.1,
+  "std": 20.9,
+  "min": 0.0,
+  "1%": 423.0,
+  "5%": 485.0,
+  "50%": 510.0,
+  "max": 514.0
+ },
+ "price_max_gap_s_quantiles": {
+  "count": 10168.0,
+  "mean": 126.0,
+  "std": 245.0,
+  "min": 61.0,
+  "50%": 85.0,
+  "90%": 160.0,
+  "99%": 831.0,
+  "max": 5610.0
+ },
+ "price_tokens_by_basis": {
+  "pm_gameStartTime": 10095,
+  "espn_scheduled": 76
+ },
+ "kickoff_wall_minus_sched_s_quantiles": {
+  "count": 2203.0,
+  "mean": 67.0,
+  "std": 73.0,
+  "min": -20.0,
+  "1%": 4.0,
+  "5%": 7.0,
+  "50%": 40.0,
+  "95%": 201.0,
+  "99%": 315.0,
+  "max": 705.0
+ },
+ "kickoff_wall_outliers_gt_15min": 0,
+ "ke_goals_inconsistent": [],
+ "espn_wallclock_available_false": 0,
+ "event_types": {
+  "substitution": 20034,
+  "yellow-card": 8466,
+  "goal": 4156,
+  "kickoff": 2203,
+  "halftime": 2202,
+  "start-2nd-half": 2202,
+  "end-regular-time": 2202,
+  "start-delay": 1977,
+  "end-delay": 1972,
+  "goal---header": 940,
+  "penalty---scored": 519,
+  "red-card": 427,
+  "goal---volley": 348,
+  "var-decision-no-goal": 285,
+  "var-goal-overturned": 270,
+  "var-other": 252,
+  "var-decision-penalty": 223,
+  "own-goal": 179,
+  "var-decision-no-penalty": 136,
+  "penalty---saved": 115,
+  "goal---free-kick": 80,
+  "var-decision-goal": 76,
+  "penalty---missed": 34,
+  "penalty---hit-woodwork": 15,
+  "var-decision-no-red-card": 10,
+  "var-decision-red-card": 3
+ },
+ "goal_events": 6222,
+ "goal_wallclock_missing": 0,
+ "red_cards": 427,
+ "wallclock_share_second_00": 0.0154,
+ "goal_wallclock_minus_clock_estimate_s_quantiles": {
+  "count": 5504.0,
+  "mean": 1.0,
+  "std": 9.0,
+  "min": -1.0,
+  "5%": 0.0,
+  "25%": 0.0,
+  "50%": 0.0,
+  "75%": 1.0,
+  "95%": 1.0,
+  "max": 645.0
+ },
+ "resolution_check": {
+  "match": 2202,
+  "espn_abandoned": 1,
+  "pm_unresolved": 1
+ },
+ "resolution_non_match": [
+  {
+   "match_id": "fl1-nan-tou-2026-05-17",
+   "resolution_check": "espn_abandoned",
+   "pm_result": "D",
+   "espn_result": "D"
+  },
+  {
+   "match_id": "lal-ray-bil-2026-10-10",
+   "resolution_check": "pm_unresolved",
+   "pm_result": "UNRESOLVED",
+   "espn_result": NaN
+  }
+ ],
+ "fd_vs_espn_score_mismatch": [],
+ "fd_kickoff_minus_espn_s": {
+  "0.0": 2194,
+  "-900.0": 3,
+  "-600.0": 2,
+  "-3600.0": 1,
+  "10800.0": 1
+ },
+ "fee_rate_by_month": {
+  "2025-08|nan": 375,
+  "2025-09|nan": 465,
+  "2025-10|nan": 489,
+  "2025-11|nan": 564,
+  "2025-12|nan": 510,
+  "2026-01|nan": 669,
+  "2026-02|nan": 579,
+  "2026-03|0.0175": 33,
+  "2026-03|nan": 465,
+  "2026-04|0.03": 489,
+  "2026-04|nan": 54,
+  "2026-05|0.03": 561,
+  "2026-08|0.05": 291,
+  "2026-09|0.05": 459,
+  "2026-10|0.05": 546,
+  "2026-11|0.05": 63
+ },
+ "goal_lag_status": {
+  "ok": 4584,
+  "no_step_ge_0.05": 939,
+  "few_prints": 695
+ },
+ "goal_lag_s_quantiles": {
+  "count": 4584.0,
+  "mean": -4.0,
+  "std": 57.0,
+  "min": -291.0,
+  "5%": -119.0,
+  "10%": -35.0,
+  "25%": -3.0,
+  "50%": 1.0,
+  "75%": 5.0,
+  "90%": 22.0,
+  "95%": 60.0,
+  "max": 296.0
+ },
+ "goal_lag_share_before_wallclock": 0.42,
+ "goal_lag_share_abs_le_30s": 0.813,
+ "goal_lag_share_abs_le_60s": 0.866,
+ "goal_lag_n_matches": 1959,
+ "trading_gap_typical_prints_per_live_match_5min": 47.391304347826086,
+ "trading_gap_windows": [
+  {
+   "start_utc": "2026-02-07 16:10:00+00:00",
+   "end_utc": "2026-02-07 16:15:00+00:00",
+   "minutes": "5",
+   "max_live": "12",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-02-07 16:20:00+00:00",
+   "end_utc": "2026-02-07 16:35:00+00:00",
+   "minutes": "15",
+   "max_live": "12",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-05-01 19:35:00+00:00",
+   "end_utc": "2026-05-01 20:05:00+00:00",
+   "minutes": "30",
+   "max_live": "3",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-05-01 20:20:00+00:00",
+   "end_utc": "2026-05-01 20:25:00+00:00",
+   "minutes": "5",
+   "max_live": "3",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-08-30 18:00:00+00:00",
+   "end_utc": "2026-08-30 18:25:00+00:00",
+   "minutes": "25",
+   "max_live": "2",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-09-19 17:05:00+00:00",
+   "end_utc": "2026-09-19 17:55:00+00:00",
+   "minutes": "50",
+   "max_live": "5",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-09-19 18:45:00+00:00",
+   "end_utc": "2026-09-19 18:55:00+00:00",
+   "minutes": "10",
+   "max_live": "5",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-09-19 19:20:00+00:00",
+   "end_utc": "2026-09-19 19:35:00+00:00",
+   "minutes": "15",
+   "max_live": "6",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-09-19 19:40:00+00:00",
+   "end_utc": "2026-09-19 20:00:00+00:00",
+   "minutes": "20",
+   "max_live": "6",
+   "prints": "0"
+  },
+  {
+   "start_utc": "2026-09-19 20:05:00+00:00",
+   "end_utc": "2026-09-19 20:10:00+00:00",
+   "minutes": "5",
+   "max_live": "6",
+   "prints": "0"
+  }
+ ],
+ "clock_alignment_matches": 2058,
+ "clock_alignment_best_shift_quantiles": {
+  "count": 2058.0,
+  "mean": 62.0,
+  "std": 763.0,
+  "min": -5400.0,
+  "1%": -2306.0,
+  "5%": -90.0,
+  "50%": 0.0,
+  "95%": 90.0,
+  "99%": 4273.0,
+  "max": 5340.0
+ },
+ "clock_alignment_share_abs_le_120s": 0.925,
+ "inplay_halts_n": 24,
+ "inplay_halts_by_date": {
+  "2025-08-31": [
+   "bun-wol-mai-2025-08-31"
+  ],
+  "2026-02-07": [
+   "epl-ful-eve-2026-02-07",
+   "lal-bar-mal-2026-02-07",
+   "fl1-rcl-ren-2026-02-07",
+   "epl-bou-ast-2026-02-07",
+   "epl-wol-che-2026-02-07",
+   "epl-ars-sun-2026-02-07",
+   "epl-bur-wes-2026-02-07"
+  ],
+  "2026-05-01": [
+   "lal-gir-mal-2026-05-01",
+   "epl-lee-bur-2026-05-01",
+   "sea-pis-lec-2026-05-01"
+  ],
+  "2026-08-22": [
+   "epl-hul-mun-2026-08-22"
+  ],
+  "2026-08-30": [
+   "lal-dep-val-2026-08-30",
+   "sea-nap-com-2026-08-30"
+  ],
+  "2026-09-03": [
+   "lal-rso-cel-2026-09-03"
+  ],
+  "2026-09-19": [
+   "epl-not-cov-2026-09-19",
+   "bun-stu-dor-2026-09-19",
+   "sea-rom-int-2026-09-19",
+   "fl1-tou-hac-2026-09-19",
+   "sea-ven-laz-2026-09-19",
+   "fl1-lyo-ren-2026-09-19",
+   "lal-sev-bar-2026-09-19"
+  ],
+  "2026-10-10": [
+   "fl1-sbr-ang-2026-10-10"
+  ],
+  "2026-10-29": [
+   "sea-fro-lec-2026-10-29"
+  ]
+ },
+ "inplay_max_gap_s_quantiles": {
+  "count": 2202.0,
+  "mean": 216.0,
+  "std": 333.0,
+  "min": 12.0,
+  "50%": 124.0,
+  "90%": 449.0,
+  "95%": 674.0,
+  "99%": 1392.0,
+  "max": 5154.0
+ },
+ "clock_shift_gt_300s_any": 140,
+ "clock_shift_strong": [
+  {
+   "match_id": "bun-ein-uni-2025-09-21",
+   "n_goals": 7,
+   "best_shift_s": 540,
+   "score_best": 1.1776528240000002,
+   "score_at_0": 0.46884326090000006,
+   "inplay_max_gap_s": 342,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "bun-ein-wer-2025-08-23",
+   "n_goals": 5,
+   "best_shift_s": 1890,
+   "score_best": 1.0004754188999998,
+   "score_at_0": 0.29000000000000004,
+   "inplay_max_gap_s": 556,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "bun-hei-dor-2025-09-13",
+   "n_goals": 2,
+   "best_shift_s": -480,
+   "score_best": 0.2699999999999999,
+   "score_at_0": 0.04857140269999993,
+   "inplay_max_gap_s": 402,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "bun-mai-wer-2025-11-01",
+   "n_goals": 2,
+   "best_shift_s": 4800,
+   "score_best": 0.8500000081,
+   "score_at_0": 0.2999999733,
+   "inplay_max_gap_s": 536,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "bun-pau-moe-2025-11-01",
+   "n_goals": 4,
+   "best_shift_s": -4620,
+   "score_best": 0.39278193559999997,
+   "score_at_0": 0.1057145035,
+   "inplay_max_gap_s": 426,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "bun-stu-dor-2026-09-19",
+   "n_goals": 1,
+   "best_shift_s": 3360,
+   "score_best": 0.66,
+   "score_at_0": 0.0,
+   "inplay_max_gap_s": 4876,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "bun-uni-stu-2025-08-23",
+   "n_goals": 3,
+   "best_shift_s": 4260,
+   "score_best": 0.95,
+   "score_at_0": 0.44008595510000004,
+   "inplay_max_gap_s": 480,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "epl-not-cov-2026-09-19",
+   "n_goals": 1,
+   "best_shift_s": 4380,
+   "score_best": 0.8000000029,
+   "score_at_0": 0.0,
+   "inplay_max_gap_s": 5049,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "epl-tot-wol-2025-09-27",
+   "n_goals": 2,
+   "best_shift_s": 2580,
+   "score_best": 0.98,
+   "score_at_0": 0.19375211959999994,
+   "inplay_max_gap_s": 136,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-aja-tou-2025-09-21",
+   "n_goals": 1,
+   "best_shift_s": 540,
+   "score_best": 0.2444653391,
+   "score_at_0": 0.0800000522,
+   "inplay_max_gap_s": 474,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-ang-tro-2026-09-19",
+   "n_goals": 2,
+   "best_shift_s": 2010,
+   "score_best": 0.4169999662,
+   "score_at_0": 0.0,
+   "inplay_max_gap_s": 1392,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "fl1-asm-hac-2025-08-16",
+   "n_goals": 4,
+   "best_shift_s": -2490,
+   "score_best": 0.19000000000000003,
+   "score_at_0": -0.0865948030999999,
+   "inplay_max_gap_s": 724,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-hac-nan-2025-11-08",
+   "n_goals": 2,
+   "best_shift_s": 690,
+   "score_best": 0.21891260460000003,
+   "score_at_0": 0.031216097999999977,
+   "inplay_max_gap_s": 392,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-hac-olm-2026-05-10",
+   "n_goals": 1,
+   "best_shift_s": 990,
+   "score_best": 0.43999999970000003,
+   "score_at_0": 0.12,
+   "inplay_max_gap_s": 94,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-lmf-lor-2026-09-19",
+   "n_goals": 3,
+   "best_shift_s": 660,
+   "score_best": 0.5293173402999999,
+   "score_at_0": 0.03499999789999997,
+   "inplay_max_gap_s": 2775,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "fl1-lor-ren-2025-08-24",
+   "n_goals": 4,
+   "best_shift_s": -2220,
+   "score_best": 0.7915611653,
+   "score_at_0": 0.20900000920000006,
+   "inplay_max_gap_s": 618,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-olm-hac-2026-10-25",
+   "n_goals": 7,
+   "best_shift_s": 4980,
+   "score_best": 0.6559999586999999,
+   "score_at_0": 0.32200004559999995,
+   "inplay_max_gap_s": 382,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-olm-lor-2025-09-12",
+   "n_goals": 4,
+   "best_shift_s": -450,
+   "score_best": 0.47935608799999996,
+   "score_at_0": 0.23407498790000003,
+   "inplay_max_gap_s": 1138,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-olm-psg-2025-09-22",
+   "n_goals": 1,
+   "best_shift_s": 1350,
+   "score_best": 0.4240861654,
+   "score_at_0": 0.18999995460000002,
+   "inplay_max_gap_s": 152,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-pfc-lil-2026-04-26",
+   "n_goals": 1,
+   "best_shift_s": 4020,
+   "score_best": 0.33999999999999997,
+   "score_at_0": 0.07000000000000006,
+   "inplay_max_gap_s": 54,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-psg-nan-2026-04-22",
+   "n_goals": 3,
+   "best_shift_s": -2730,
+   "score_best": 0.31177607500000015,
+   "score_at_0": 0.1289999611,
+   "inplay_max_gap_s": 105,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-rcl-lor-2026-09-05",
+   "n_goals": 1,
+   "best_shift_s": 2070,
+   "score_best": 0.64,
+   "score_at_0": 0.30999999219999996,
+   "inplay_max_gap_s": 141,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-rcl-lyo-2025-08-16",
+   "n_goals": 1,
+   "best_shift_s": -480,
+   "score_best": 0.5099998774000001,
+   "score_at_0": -0.009999998200000026,
+   "inplay_max_gap_s": 601,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-sbr-lil-2025-08-17",
+   "n_goals": 6,
+   "best_shift_s": 5070,
+   "score_best": 2.1199998921,
+   "score_at_0": 0.7594157690999999,
+   "inplay_max_gap_s": 714,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "fl1-tou-hac-2026-09-19",
+   "n_goals": 5,
+   "best_shift_s": 1230,
+   "score_best": 0.749692428,
+   "score_at_0": 2.179999994411652e-08,
+   "inplay_max_gap_s": 1404,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "fl1-tou-lil-2026-09-03",
+   "n_goals": 1,
+   "best_shift_s": 1200,
+   "score_best": 0.6699999999999999,
+   "score_at_0": 0.0,
+   "inplay_max_gap_s": 3320,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-bet-gir-2025-11-23",
+   "n_goals": 2,
+   "best_shift_s": 5190,
+   "score_best": 0.819999998,
+   "score_at_0": 0.3933116564,
+   "inplay_max_gap_s": 122,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-cel-rrc-2026-09-19",
+   "n_goals": 5,
+   "best_shift_s": 1860,
+   "score_best": 0.32999999999999996,
+   "score_at_0": 0.0,
+   "inplay_max_gap_s": 5154,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "lal-elc-bet-2025-08-18",
+   "n_goals": 2,
+   "best_shift_s": -2280,
+   "score_best": 0.94,
+   "score_at_0": 0.05000000780000002,
+   "inplay_max_gap_s": 400,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-esp-ray-2025-12-07",
+   "n_goals": 1,
+   "best_shift_s": 2880,
+   "score_best": 0.7142489335,
+   "score_at_0": 0.19575671849999998,
+   "inplay_max_gap_s": 130,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-gir-mal-2026-05-01",
+   "n_goals": 1,
+   "best_shift_s": 1350,
+   "score_best": 0.2899998738999999,
+   "score_at_0": 0.0,
+   "inplay_max_gap_s": 1958,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "lal-mad-bet-2026-02-08",
+   "n_goals": 1,
+   "best_shift_s": 4020,
+   "score_best": 0.47,
+   "score_at_0": 0.17999999999999994,
+   "inplay_max_gap_s": 72,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-mal-bar-2025-08-16",
+   "n_goals": 3,
+   "best_shift_s": -1350,
+   "score_best": 0.7792944014,
+   "score_at_0": 0.12000002469999993,
+   "inplay_max_gap_s": 412,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-osa-get-2026-08-31",
+   "n_goals": 1,
+   "best_shift_s": 1830,
+   "score_best": 0.45,
+   "score_at_0": 0.11000001019999994,
+   "inplay_max_gap_s": 82,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-ray-bar-2025-08-31",
+   "n_goals": 2,
+   "best_shift_s": 1110,
+   "score_best": 0.4000000025000001,
+   "score_at_0": 0.11914869140000008,
+   "inplay_max_gap_s": 126,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-rea-osa-2025-08-19",
+   "n_goals": 1,
+   "best_shift_s": 2700,
+   "score_best": 0.6,
+   "score_at_0": 0.10000000000000009,
+   "inplay_max_gap_s": 234,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "lal-vil-ovi-2025-08-15",
+   "n_goals": 2,
+   "best_shift_s": -750,
+   "score_best": 0.62,
+   "score_at_0": 0.24,
+   "inplay_max_gap_s": 700,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-com-cre-2025-09-27",
+   "n_goals": 2,
+   "best_shift_s": 4830,
+   "score_best": 0.86,
+   "score_at_0": 0.2599999622,
+   "inplay_max_gap_s": 674,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-com-par-2026-05-17",
+   "n_goals": 1,
+   "best_shift_s": 1020,
+   "score_best": 0.5099998129000001,
+   "score_at_0": 0.17385129060000004,
+   "inplay_max_gap_s": 76,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-cre-rom-2025-11-23",
+   "n_goals": 4,
+   "best_shift_s": 1290,
+   "score_best": 1.0180006688,
+   "score_at_0": 0.4300000225999999,
+   "inplay_max_gap_s": 204,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-fro-lec-2026-10-29",
+   "n_goals": 6,
+   "best_shift_s": -1740,
+   "score_best": 0.4600000633999999,
+   "score_at_0": -0.0040000000000000036,
+   "inplay_max_gap_s": 3822,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-int-cre-2025-10-04",
+   "n_goals": 5,
+   "best_shift_s": -1890,
+   "score_best": 0.22951193079999999,
+   "score_at_0": 0.048124374100000145,
+   "inplay_max_gap_s": 752,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-mil-gen-2026-01-08",
+   "n_goals": 2,
+   "best_shift_s": 5190,
+   "score_best": 0.7499999866,
+   "score_at_0": 0.2713672801,
+   "inplay_max_gap_s": 82,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-mil-rom-2025-11-02",
+   "n_goals": 1,
+   "best_shift_s": 3690,
+   "score_best": 0.4780619806,
+   "score_at_0": 0.23670142680000006,
+   "inplay_max_gap_s": 124,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-par-int-2026-01-07",
+   "n_goals": 2,
+   "best_shift_s": -570,
+   "score_best": 0.8799999824,
+   "score_at_0": 0.04068898990000003,
+   "inplay_max_gap_s": 126,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-tor-nap-2025-10-18",
+   "n_goals": 1,
+   "best_shift_s": 4950,
+   "score_best": 0.960123163,
+   "score_at_0": 0.4,
+   "inplay_max_gap_s": 124,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-udi-rom-2026-02-02",
+   "n_goals": 1,
+   "best_shift_s": 2550,
+   "score_best": 0.78,
+   "score_at_0": 0.36000005109999994,
+   "inplay_max_gap_s": 78,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-ven-laz-2026-09-19",
+   "n_goals": 2,
+   "best_shift_s": 600,
+   "score_best": 0.5499997404000001,
+   "score_at_0": 0.010584743199999969,
+   "inplay_max_gap_s": 1395,
+   "overlaps_trading_gap": true
+  },
+  {
+   "match_id": "sea-ver-juv-2025-09-20",
+   "n_goals": 2,
+   "best_shift_s": 2520,
+   "score_best": 0.7440000427,
+   "score_at_0": 0.28156666669999997,
+   "inplay_max_gap_s": 274,
+   "overlaps_trading_gap": false
+  },
+  {
+   "match_id": "sea-ver-rom-2026-05-24",
+   "n_goals": 2,
+   "best_shift_s": -2490,
+   "score_best": 0.22999999999999998,
+   "score_at_0": 0.020000042399999973,
+   "inplay_max_gap_s": 49,
+   "overlaps_trading_gap": false
+  }
+ ],
+ "crosscheck_existing_404": {
+  "files": 404,
+  "in_new": 404,
+  "espn_id_same": 404,
+  "score_same": 404,
+  "goal_walls_same": 403,
+  "kickoff_same": 404,
+  "won_same": 1212,
+  "won_compared": 1212
+ },
+ "crosscheck_existing_404_diffs": [
+  [
+   "epl-cry-ips-2026-09-12",
+   "goal wallclocks old [1789222457, 1789223012, 1789224337, 1789227474, 1789228331] new [1789222457, 1789223012, 1789224338, 1789227475, 1789228331]"
+  ]
+ ],
+ "disk_kb": {
+  "matches.parquet": "580",
+  "markets.parquet": "4952",
+  "price_history.parquet": "63732",
+  "trades.parquet": "410592",
+  "events.parquet": "2584",
+  "odds.parquet": "292",
+  "trades_parts": "693388",
+  "raw": "187260",
+  ".": "1367724"
+ },
+ "rows": {
+  "matches": 2204,
+  "markets": 10171,
+  "price_history": 5127223,
+  "trades": 6756284,
+  "events": 49326,
+  "odds": 2204
+ }
+}

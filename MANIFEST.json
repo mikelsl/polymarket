@@ -1,0 +1,1155 @@
+{
+  "scope": "public curated research snapshot",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 64,
+      "sha256": "d8a5ab08b178ae934e3be6d0b0b16c26f7cc0faf471da79f62cff7a45e8ff9c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 927,
+      "sha256": "18e6ff5241e19df47d0ba5183c20eeb0573153d7575b2065509300646f34e7f7"
+    },
+    {
+      "path": "docs/DATA_POLICY.md",
+      "bytes": 1725,
+      "sha256": "3c1cecf5ac18320d6a2e9fbcfc7527a9762157001197e87e9b77448499f8886c"
+    },
+    {
+      "path": "football/.gitignore",
+      "bytes": 64,
+      "sha256": "285e019f7daac1b1ddc48f5111c7b142b2de7ca81316fcb27c95b4df531758ed"
+    },
+    {
+      "path": "football/README.md",
+      "bytes": 1003,
+      "sha256": "530fbf257f27fd52eb767853a578124edb675150aaee9eb4650aad56bb715c70"
+    },
+    {
+      "path": "football/data/football-book-sample-coverage.csv",
+      "bytes": 2482,
+      "sha256": "a7510ecda2fc526a13ae112632c53293667893623c42201c9e8e99abd7b62188"
+    },
+    {
+      "path": "football/data/public-match-index.csv",
+      "bytes": 260357,
+      "sha256": "ccde92a7956c1d0ff132c1edeb7cb19e66fdc912ed61a4ea1887c58abe6dcf86"
+    },
+    {
+      "path": "football/docs/combined-research-report-2026-11-04.md",
+      "bytes": 15795,
+      "sha256": "07fabd57b85754a75c6bd214560eac6ba842b359366d4becdfc4986ea5f60ea4"
+    },
+    {
+      "path": "football/docs/research-chronology.md",
+      "bytes": 2345,
+      "sha256": "c665ae168e740ae1a7aca69310c61a0d714908c36b79e57dc4d8cd4abe6b1860"
+    },
+    {
+      "path": "football/reports/acceptance/data.md",
+      "bytes": 582,
+      "sha256": "79804b6975f93d67433df18a3b7b2f4ddf8bba4f8c4d0a23e8898d5984e26996"
+    },
+    {
+      "path": "football/reports/acceptance/soccer_strat.md",
+      "bytes": 1364,
+      "sha256": "36d20a3ccaa9b1c961fbf17344542e3aa2c849ba7c23aafdc578dd7468e95994"
+    },
+    {
+      "path": "football/reports/soccer_data/DATA_DICTIONARY.md",
+      "bytes": 31790,
+      "sha256": "2e3e1fdc147f410516ceb73291202fc5451c58fa93e2e04f53a17cdfb7abfbc4"
+    },
+    {
+      "path": "football/reports/soccer_data/REPORT.md",
+      "bytes": 8864,
+      "sha256": "11b21564e4991341eb2fed84b72ebe1b94ee92d5728af8fb916e6a9594a8f8fe"
+    },
+    {
+      "path": "football/reports/soccer_strat/REPORT.md",
+      "bytes": 19281,
+      "sha256": "0d663ef5bf935f0c08038cb960f64434735f956b5de6c7ac578968224a6ad7e5"
+    },
+    {
+      "path": "football/results/soccer_data/DATA_DICTIONARY.md",
+      "bytes": 31790,
+      "sha256": "2e3e1fdc147f410516ceb73291202fc5451c58fa93e2e04f53a17cdfb7abfbc4"
+    },
+    {
+      "path": "football/results/soccer_data/REPORT.md",
+      "bytes": 8864,
+      "sha256": "11b21564e4991341eb2fed84b72ebe1b94ee92d5728af8fb916e6a9594a8f8fe"
+    },
+    {
+      "path": "football/results/soccer_data/excluded_playoffs.csv",
+      "bytes": 567,
+      "sha256": "814c8a4157bcf1aa2a3f956a064b26db15c59e38ff7ebc8dbbd3b7da6c8859ac"
+    },
+    {
+      "path": "football/results/soccer_data/pm_listing_by_month.csv",
+      "bytes": 6765,
+      "sha256": "658a26654ebe3ac362dc60601f070995110f335ad0bcef89726fa5880063fc46"
+    },
+    {
+      "path": "football/results/soccer_data/qa_clock_shift_by_match.csv",
+      "bytes": 123228,
+      "sha256": "acb3540e34a3ea3cd42c19905d8d312ebee57b84a5eeff95b3a04b22e274674e"
+    },
+    {
+      "path": "football/results/soccer_data/qa_clock_shift_strong.csv",
+      "bytes": 3606,
+      "sha256": "c53ccfbfab9eb27f8a7d77b53a9fc5fde17776160b0714cf4a9441d5769594a2"
+    },
+    {
+      "path": "football/results/soccer_data/qa_coverage_by_league.csv",
+      "bytes": 600,
+      "sha256": "506344be01a4782f42c96f13e6182736f736a3005da52131e1f964cca536c736"
+    },
+    {
+      "path": "football/results/soccer_data/qa_coverage_by_month.csv",
+      "bytes": 3532,
+      "sha256": "1d672c1be4773de12bad358ed715b93dbe028ad2088c2c4d91eac4b7747f139c"
+    },
+    {
+      "path": "football/results/soccer_data/qa_goal_lag.csv",
+      "bytes": 466951,
+      "sha256": "20efbaef6c606d49834d8edf4edaaa7b8b1a946240e1ab85499af6ada70cbce4"
+    },
+    {
+      "path": "football/results/soccer_data/qa_inplay_halts.csv",
+      "bytes": 2548,
+      "sha256": "2c64b79af32babdd4e4178b5bbe8b9ce2fcdef96ecab4e292d04022a20582b7d"
+    },
+    {
+      "path": "football/results/soccer_data/qa_kickoff_wallclock_outliers.csv",
+      "bytes": 89,
+      "sha256": "bb93a9ae32b4c7ccb7c122fd397d5cd08c3ad6da9f296f1de36798a4d873bbee"
+    },
+    {
+      "path": "football/results/soccer_data/qa_price_tokens_sparse.csv",
+      "bytes": 521,
+      "sha256": "f4ff2ecac1a2094e7ec53dd3f90b2387ab91b8a02c73ba96902e17cc3006724e"
+    },
+    {
+      "path": "football/results/soccer_data/qa_summary.json",
+      "bytes": 20994,
+      "sha256": "78375311342520f628bd9854b044577fbb06f184d3c920412e3dbe4fdb6dfca2"
+    },
+    {
+      "path": "football/results/soccer_data/qa_trades_volume_outliers.csv",
+      "bytes": 112778,
+      "sha256": "55e44f973d55c2ed6712ab4c701d6d4fd2c5185a6895194bbd7e7318de77bcad"
+    },
+    {
+      "path": "football/results/soccer_data/qa_trading_gaps.csv",
+      "bytes": 896,
+      "sha256": "2e9d8e92656afc57afb1c8434d63bbf9bd5144472212173d2b49f70017792501"
+    },
+    {
+      "path": "football/results/soccer_data/resolution_mismatches.csv",
+      "bytes": 430,
+      "sha256": "b9b34401063f8a0c537eb8bd459f429484279090eaa0b5d0a7300fd7094d9a76"
+    },
+    {
+      "path": "football/results/soccer_strat/REPORT.md",
+      "bytes": 19281,
+      "sha256": "0d663ef5bf935f0c08038cb960f64434735f956b5de6c7ac578968224a6ad7e5"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_buckets.csv",
+      "bytes": 7979,
+      "sha256": "2298a652baa61284d4c3139196b29c35cfb1deb2aba4259ac8489b8d2a99b33f"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_calibration.csv",
+      "bytes": 1715,
+      "sha256": "8fcfb660026fc1f3d756928c3ca8ea32f3ce70d0f2d7522b0629f0fffdec8846"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_gap_by_league.csv",
+      "bytes": 1877,
+      "sha256": "17601bc9194cb43cb1446a9bb53eb9b99e2701307edf63d63f2e19f9be6ced42"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_gap_by_role.csv",
+      "bytes": 982,
+      "sha256": "67c964edbb7d27f39a701f288e4af16b56869da5bb3efccd907b702387ff02d3"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_lag_regression.csv",
+      "bytes": 5948,
+      "sha256": "d43e6c0c1b05767a020ab3618f6f6950ba55b5bfbe6f3d6fdf5b9ad3974df06c"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_lag_rules.csv",
+      "bytes": 44387,
+      "sha256": "9034e1855ca420107d0b01a7f2643a411c887e22bf1962eba80941a9c8361982"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_opening_time.csv",
+      "bytes": 439,
+      "sha256": "6cdbed25f4bf825743b340a6ef8a4dc77ae13c4c31423eb5d97251b8b8112bbf"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_opening_time_best.csv",
+      "bytes": 168,
+      "sha256": "aaf514b770b654d826057a56811936dce9ec0829f38eb7866a1386deebf4351d"
+    },
+    {
+      "path": "football/results/soccer_strat/h1_value_rules.csv",
+      "bytes": 117595,
+      "sha256": "fe0e7eb843bbf34996fc7ea16db792e38a2fd0438c87db9505fcc99ca7d1868e"
+    },
+    {
+      "path": "football/results/soccer_strat/h2_logloss_by_minute.csv",
+      "bytes": 1088,
+      "sha256": "dcb8409306c30757c94a26925ac9498f9f3632f0a17e886e15bd3e2c5e06b710"
+    },
+    {
+      "path": "football/results/soccer_strat/h2_model_glm.txt",
+      "bytes": 1679,
+      "sha256": "2d02d4a3105b2ba4625cd4b8b6d0c9c027b8c7b51f932a5ff83d649ae40163e6"
+    },
+    {
+      "path": "football/results/soccer_strat/h2_rules.csv",
+      "bytes": 35921,
+      "sha256": "c93537e2d0f12f92bac1ba6954cec1fdf68fc420f2316f15f486f590445967da"
+    },
+    {
+      "path": "football/results/soccer_strat/h2_rules_wide.csv",
+      "bytes": 6229,
+      "sha256": "97564bd1dbfad20fb44cf91a09b5c2820de000503fb44cdadb4ef47ada973314"
+    },
+    {
+      "path": "football/results/soccer_strat/h2_state_calibration.csv",
+      "bytes": 18008,
+      "sha256": "6b3887bcaa2f3e38ed783ec4e2bb6ed4b5cf4a50a3ea399cbdbf3d158b603c52"
+    },
+    {
+      "path": "football/results/soccer_strat/h3_drift_scorer.csv",
+      "bytes": 555,
+      "sha256": "f64268b58bbd19a9baaed4858b2b13ddddb1c905a383abb5d714a0d0b11c03ca"
+    },
+    {
+      "path": "football/results/soccer_strat/h3_event_rules.csv",
+      "bytes": 125296,
+      "sha256": "e5cdc0a1463fb2bc6bbbd8b0aceb012d6942cb0b62f4890bec44d950e227c330"
+    },
+    {
+      "path": "football/results/soccer_strat/h3_event_rules_wide.csv",
+      "bytes": 85665,
+      "sha256": "3c4001f10ee9491bdb2f7fe5840909e774c0f36652eb4efff6dfd83c3458e480"
+    },
+    {
+      "path": "football/results/soccer_strat/h3b_goal_rule_grid.csv",
+      "bytes": 116425,
+      "sha256": "e54921bf858055c65bb2c26586baa385098623473e530174e86990b3eab813e1"
+    },
+    {
+      "path": "football/results/soccer_strat/h3c_delay_split.csv",
+      "bytes": 1396,
+      "sha256": "c2f989a5881dddbecad487e8e6a7d5b8e29582a5d6a2d7f7dbdb4e9667b23ef2"
+    },
+    {
+      "path": "football/results/soccer_strat/h4_inplay_calibration.csv",
+      "bytes": 7537,
+      "sha256": "eda9f2a36c4efe7ab14a27dff521d38ad6e558a703a4192dd585dfaee726f560"
+    },
+    {
+      "path": "football/results/soccer_strat/h4_inplay_rules.csv",
+      "bytes": 4383,
+      "sha256": "31e85a3ddf189a9ba863678a90d86539ca3720cb0e43c13baf40957a552cbc44"
+    },
+    {
+      "path": "football/results/soccer_strat/h4_prematch_calibration.csv",
+      "bytes": 1362,
+      "sha256": "2136fd641e7109d3353fdbb69cd5b4cc78865523d52b804715c21a247c3e3496"
+    },
+    {
+      "path": "football/results/soccer_strat/h4_prematch_value_rules.csv",
+      "bytes": 1922,
+      "sha256": "ddb5c6a4879f5c4d306a17fd4253ceea9f21fc4f7014e725367685f45f333bed"
+    },
+    {
+      "path": "football/results/soccer_strat/h4b_prints_coverage.csv",
+      "bytes": 352,
+      "sha256": "819c2fae31000d70fc2748165a5b55c87e2a6a9ac97b6bf7a1e31c6852fc32d4"
+    },
+    {
+      "path": "football/results/soccer_strat/h4b_prints_rules.csv",
+      "bytes": 3142,
+      "sha256": "b06c62db0342416bd28c1624ed288025dc3fe8cbee81c5850e1aabd8199e261d"
+    },
+    {
+      "path": "football/results/soccer_strat/h5_cross_market_sum.csv",
+      "bytes": 418,
+      "sha256": "9a564e3a29be12818f9f570c2c0f4dbd737a1e9b6701e8a6328e8965986a7aef"
+    },
+    {
+      "path": "football/results/soccer_strat/h5_halts.csv",
+      "bytes": 5207,
+      "sha256": "e481160bd9a49717c590a8691663bfb9c8944701d45a65ee67e371efa397df67"
+    },
+    {
+      "path": "football/scripts/soccer_data/01_discover.py",
+      "bytes": 3849,
+      "sha256": "ca55ecd2a540a944790c906a6035d02e33ab475a774ce608a4039b9e76011ba6"
+    },
+    {
+      "path": "football/scripts/soccer_data/01b_listing_summary.py",
+      "bytes": 2234,
+      "sha256": "3e53b8cdf05c3600d12533ee331f925ca6747cc17b1be17f42ae96471ef8aad0"
+    },
+    {
+      "path": "football/scripts/soccer_data/02_build_meta.py",
+      "bytes": 7738,
+      "sha256": "f778b2ab30ce984d3a921576cd50bacfbb337cdb5110f9e248e1ec3e8c36eedd"
+    },
+    {
+      "path": "football/scripts/soccer_data/03_prices.py",
+      "bytes": 2895,
+      "sha256": "4885da144923a357ce6ddfee758e6e0f41a9d1da47b2a0b3a85c93f3c0e6a4bf"
+    },
+    {
+      "path": "football/scripts/soccer_data/03b_prices_fix.py",
+      "bytes": 2013,
+      "sha256": "78cd3dd6ad160637cf366f2de864e58f32fb5175c67292eff03fde36fd542dcb"
+    },
+    {
+      "path": "football/scripts/soccer_data/04_trades.py",
+      "bytes": 7058,
+      "sha256": "010685092bcd5fb938257e7f4afacdd8c8a8b9c0a728855dd3a32067c243ea2d"
+    },
+    {
+      "path": "football/scripts/soccer_data/05_espn_fixtures.py",
+      "bytes": 8497,
+      "sha256": "62e2dba4c90c50cfd7840880481eb749da68465807ef341dfda03a49c2a31b80"
+    },
+    {
+      "path": "football/scripts/soccer_data/05_espn_summaries.py",
+      "bytes": 2219,
+      "sha256": "86f157b1fd92f1e20905c0fc0a352ea781a0cc44b39d52e08ccfae25b0b8b6f7"
+    },
+    {
+      "path": "football/scripts/soccer_data/06_odds.py",
+      "bytes": 8486,
+      "sha256": "ef2e42379e5aef0162d51dd49eb5419756c0bdeb99aae41e3bfc0949e00e29b0"
+    },
+    {
+      "path": "football/scripts/soccer_data/07_build_matches_events.py",
+      "bytes": 13358,
+      "sha256": "de81514ffe88ab381d76232f17d7f5beaa7d0274e619bdc213f1e8d644a90e58"
+    },
+    {
+      "path": "football/scripts/soccer_data/08_build_prices_trades.py",
+      "bytes": 7991,
+      "sha256": "0bfb0ffa59d0aead2b8e72348bf768a0ef873fb79b4ce9ca1f2ecacd31e52f8e"
+    },
+    {
+      "path": "football/scripts/soccer_data/08b_inplay_stats.py",
+      "bytes": 1882,
+      "sha256": "f005e76dd5210bf469118e11052a73842c2b115927c5fb624d2f050aabb898b5"
+    },
+    {
+      "path": "football/scripts/soccer_data/09_qa.py",
+      "bytes": 18456,
+      "sha256": "bf72630a80c282769ca0f96e36d61addfa28d2467b9e80714ab0d1bf1948bdc8"
+    },
+    {
+      "path": "football/scripts/soccer_data/10_data_dictionary.py",
+      "bytes": 19416,
+      "sha256": "aaddd00dc0dcdefd57b48a550522e783d48d58baecf174a59d13ea894b3a8851"
+    },
+    {
+      "path": "football/scripts/soccer_data/common.py",
+      "bytes": 5481,
+      "sha256": "59e662b963da4395d225d7bce9185e48e31552186b390dd294ad0a6763fbdb28"
+    },
+    {
+      "path": "football/scripts/soccer_strat/01_prematch_snapshots.py",
+      "bytes": 3508,
+      "sha256": "009be86725540749d55c3ea9daf1a58f5991e4bf73a251ef0e20bff3dbc26276"
+    },
+    {
+      "path": "football/scripts/soccer_strat/02_prematch.py",
+      "bytes": 12787,
+      "sha256": "1f550464169597d09e258d8323c014d45fc2f21452b0eab89f0e6873c54e2750"
+    },
+    {
+      "path": "football/scripts/soccer_strat/03_inplay_build.py",
+      "bytes": 10386,
+      "sha256": "0d1cdd02a43d57db45986ce0c212313f2e6879d7a8eccac40e30f34cd6766673"
+    },
+    {
+      "path": "football/scripts/soccer_strat/04_model.py",
+      "bytes": 10898,
+      "sha256": "68c52f433da87d268cdfebad58a43c6d2a97fd62dc560e365998605923773d1c"
+    },
+    {
+      "path": "football/scripts/soccer_strat/05_inplay_h2.py",
+      "bytes": 7688,
+      "sha256": "80d10ad9655b426cdbae1dd444ade6fc3a4fec287aba7f32fe5720b5b68b954e"
+    },
+    {
+      "path": "football/scripts/soccer_strat/06_events.py",
+      "bytes": 5286,
+      "sha256": "4c69adf5ef4cd6b393b3b498453d655de31e9e04ffa4d7b41760582b25f5483d"
+    },
+    {
+      "path": "football/scripts/soccer_strat/07_goal_robust.py",
+      "bytes": 9464,
+      "sha256": "e111c11824abdfb7c7512818056f8fcb810461bfd5c55c7899319fb2b9e18979"
+    },
+    {
+      "path": "football/scripts/soccer_strat/08_ou_btts.py",
+      "bytes": 10820,
+      "sha256": "a7805ef86649012f84d5e9b98154dd0b90afcc66a6aacd41b6ae4bcaed6c14cd"
+    },
+    {
+      "path": "football/scripts/soccer_strat/09_fetch_ou_btts_trades.py",
+      "bytes": 3564,
+      "sha256": "9f76950f19a817aca01f857138978bea6d9e9d51454e337f872766f1092e8e9d"
+    },
+    {
+      "path": "football/scripts/soccer_strat/10_misc.py",
+      "bytes": 3555,
+      "sha256": "257365e8811f99a5593fc2f608855ebbf6ead8a4b182141af23f9ffddb656cb4"
+    },
+    {
+      "path": "football/scripts/soccer_strat/11_ou_btts_prints.py",
+      "bytes": 6568,
+      "sha256": "cf5b8a496ac25fc58b8dc8708bfdd367eba9eef4d4fac095897225da3adf60ef"
+    },
+    {
+      "path": "football/scripts/soccer_strat/12_var_split.py",
+      "bytes": 2319,
+      "sha256": "81f74920339c8634a31b14b6aaf6f674df80b432094b0f92dd2d1c8fd7cbf4d3"
+    },
+    {
+      "path": "football/scripts/soccer_strat/lib.py",
+      "bytes": 6888,
+      "sha256": "eb1f5b422edf87e16abe4aa8b0631c765536a9b50b6f2b34e59a3cf71c28888a"
+    },
+    {
+      "path": "nba/.gitignore",
+      "bytes": 64,
+      "sha256": "285e019f7daac1b1ddc48f5111c7b142b2de7ca81316fcb27c95b4df531758ed"
+    },
+    {
+      "path": "nba/README.md",
+      "bytes": 1324,
+      "sha256": "d7965f6bc9826f3aa715d2f66abe75603557e1fe0bf25d45e12c8a081bae9531"
+    },
+    {
+      "path": "nba/data/live-per-day.csv",
+      "bytes": 622,
+      "sha256": "bda93f4c0e602676b8f267ce1f2e70040ddf395607607f20c6487e92240d25c6"
+    },
+    {
+      "path": "nba/data/public-game-index.csv",
+      "bytes": 242477,
+      "sha256": "2831d12a854417d057b878fd1570b500b0c95d941ecc84f86836ee8e2f34b7a7"
+    },
+    {
+      "path": "nba/docs/combined-research-report-2026-11-04.md",
+      "bytes": 15795,
+      "sha256": "07fabd57b85754a75c6bd214560eac6ba842b359366d4becdfc4986ea5f60ea4"
+    },
+    {
+      "path": "nba/docs/live-trading-methods-and-lessons.md",
+      "bytes": 2805,
+      "sha256": "4325bcb9e5f5ad986a509daa23931928b5033cda07c50e89d384cc1c2f83d6c9"
+    },
+    {
+      "path": "nba/reports/acceptance/data.md",
+      "bytes": 582,
+      "sha256": "79804b6975f93d67433df18a3b7b2f4ddf8bba4f8c4d0a23e8898d5984e26996"
+    },
+    {
+      "path": "nba/reports/acceptance/nba_live.md",
+      "bytes": 1547,
+      "sha256": "b2b4600ae6a5c31d5c8aed3b0f2c84e2a9afb1890bf1ee0dfe5ffc0a19d8475b"
+    },
+    {
+      "path": "nba/reports/acceptance/nba_pre.md",
+      "bytes": 1379,
+      "sha256": "b1f100ebdfdadc718a61b1b2a6e966541db7873cb3014776dffeb7c3dd604e11"
+    },
+    {
+      "path": "nba/reports/nba_data/DATA_DICTIONARY.md",
+      "bytes": 22497,
+      "sha256": "f693ac09480a9c1fe62c92032afae302edc4b4b38e3eadd6fcca66d7fd3ad894"
+    },
+    {
+      "path": "nba/reports/nba_data/REPORT.md",
+      "bytes": 21386,
+      "sha256": "e00a76df6ac7cf7ba4af4fd4b91e28ab56306e8bc38820aff4581472bcab699d"
+    },
+    {
+      "path": "nba/reports/nba_live/REPORT.md",
+      "bytes": 24532,
+      "sha256": "27096ce489343d33c1108c295c4ad6e4a99dcfc6fdf3d41854bf5e2b98b901fc"
+    },
+    {
+      "path": "nba/reports/nba_pre/REPORT.md",
+      "bytes": 8658,
+      "sha256": "4498ec6dd2faac45b354740b32e3142211deae7ff119e7bbe86da841d3edacce"
+    },
+    {
+      "path": "nba/results/nba_data/DATA_DICTIONARY.md",
+      "bytes": 22497,
+      "sha256": "f693ac09480a9c1fe62c92032afae302edc4b4b38e3eadd6fcca66d7fd3ad894"
+    },
+    {
+      "path": "nba/results/nba_data/REPORT.md",
+      "bytes": 21386,
+      "sha256": "e00a76df6ac7cf7ba4af4fd4b91e28ab56306e8bc38820aff4581472bcab699d"
+    },
+    {
+      "path": "nba/results/nba_data/qa_summary.json",
+      "bytes": 2061,
+      "sha256": "1d479b5655ca0befeaedb196b243975722155cf528e316dcb93d802342693bdc"
+    },
+    {
+      "path": "nba/results/nba_live/REPORT.md",
+      "bytes": 24532,
+      "sha256": "27096ce489343d33c1108c295c4ad6e4a99dcfc6fdf3d41854bf5e2b98b901fc"
+    },
+    {
+      "path": "nba/results/nba_live/best_of_train_mean_tr.csv",
+      "bytes": 2767,
+      "sha256": "0e29ce7452de770ff89a1beecdff81043d8dbc4191d79aa2ecd4eddf641ee934"
+    },
+    {
+      "path": "nba/results/nba_live/best_of_train_t_tr.csv",
+      "bytes": 2743,
+      "sha256": "dd7f454b4ad469c885cbf19302ce458c8890ff0992babfcce1dd11255d98fdfd"
+    },
+    {
+      "path": "nba/results/nba_live/depth_by_price.csv",
+      "bytes": 2170,
+      "sha256": "04269af360fa2ccd336f0769bb0dd6f5342f1e8139b6d7ba75c6c6be95a8ca36"
+    },
+    {
+      "path": "nba/results/nba_live/depth_by_time.csv",
+      "bytes": 2675,
+      "sha256": "79ca27b9d31b2cb4c247b13bdc42640991905c1ca8818c719139789cd0e1b094"
+    },
+    {
+      "path": "nba/results/nba_live/h1_explore_devbins.csv",
+      "bytes": 3259,
+      "sha256": "1d79f93378d1227a394534854e81ae136111b757ba2cf12ec16f30017aa68fa7"
+    },
+    {
+      "path": "nba/results/nba_live/h1_rules.csv",
+      "bytes": 24414,
+      "sha256": "acadc55378f150085cad1b44b5c352109d8a2fa58005a02fa8a6219839deaabc"
+    },
+    {
+      "path": "nba/results/nba_live/h1_rules_L30.csv",
+      "bytes": 24479,
+      "sha256": "475c4a46b7ed8c5a66429576472ec7d62d8881ba0f9186d5722fbc61b5f78d09"
+    },
+    {
+      "path": "nba/results/nba_live/h1_rules_L45.csv",
+      "bytes": 24549,
+      "sha256": "979448fec3b2511f217669324709359b8dbf7a80ddb9317b8195640f8990c356"
+    },
+    {
+      "path": "nba/results/nba_live/h1_states.csv",
+      "bytes": 7813,
+      "sha256": "5885067ca5a40dd6a463dca7fb2e25677414ff1dfe1b5785de168def0e772996"
+    },
+    {
+      "path": "nba/results/nba_live/h1b_resid_ml.csv",
+      "bytes": 4178,
+      "sha256": "80d89b326b8c73e84907d869ffc6f81e1d41f5ae296a6b0e15c611084a93ae71"
+    },
+    {
+      "path": "nba/results/nba_live/h1b_rules_ml.csv",
+      "bytes": 6485,
+      "sha256": "3d9f6abdf1c85dc5273272dae0d910d961cd2e3f10c8375bf0bc2280b11ced97"
+    },
+    {
+      "path": "nba/results/nba_live/h2_desc.csv",
+      "bytes": 29623,
+      "sha256": "3e8b9815d8d06d0551bdedcdf80a20ddd3fa61cbcfa2fe0702addb89c33db34a"
+    },
+    {
+      "path": "nba/results/nba_live/h2_rules.csv",
+      "bytes": 29224,
+      "sha256": "85065722b3269afeb2d3fe47d3853339361a60b9b8155fc045dbf3cb7b4fb03a"
+    },
+    {
+      "path": "nba/results/nba_live/h3_summary.csv",
+      "bytes": 37835,
+      "sha256": "5fd07c459162895369bfe5850bda741c1a65c2e7bafdc7ac9b7be2f7776db87e"
+    },
+    {
+      "path": "nba/results/nba_live/h4_summary.csv",
+      "bytes": 11847,
+      "sha256": "a60f99557286a5d17695de457e45d00a890814210fedf3fac2f39fe47c565435"
+    },
+    {
+      "path": "nba/results/nba_live/h5_fit_spread.csv",
+      "bytes": 937,
+      "sha256": "9f076d7c5dfb482ceded10f04c511eb17c315c0aa76ed2482765b7fc64505c6e"
+    },
+    {
+      "path": "nba/results/nba_live/h5_fit_total.csv",
+      "bytes": 920,
+      "sha256": "104fdb3ef8ead2de95cb006cb86660164843ea4b67a147b3d1d48c006e88112b"
+    },
+    {
+      "path": "nba/results/nba_live/h5_resid_spread.csv",
+      "bytes": 904,
+      "sha256": "8beaf19f983b950119944368c44726bc2ea3a1db7476fb496302cf16aa4a5d46"
+    },
+    {
+      "path": "nba/results/nba_live/h5_resid_spread_L30.csv",
+      "bytes": 904,
+      "sha256": "6f8102ed5246b4aa74a0182ef02a277548ae47662c8616f699642ed58b20837f"
+    },
+    {
+      "path": "nba/results/nba_live/h5_resid_spread_L60.csv",
+      "bytes": 903,
+      "sha256": "20069b68cd94329712ef16640578c0096d187b20e36c9f7b434b5a875c678f39"
+    },
+    {
+      "path": "nba/results/nba_live/h5_resid_total.csv",
+      "bytes": 897,
+      "sha256": "fe447c34a2759792a6b17d9c4317d65abb39bab01d66967ca2e6d838c98d9b39"
+    },
+    {
+      "path": "nba/results/nba_live/h5_rules_spread.csv",
+      "bytes": 4064,
+      "sha256": "f0ecf25ad8ee26a4d1d44046811eaa3f92bfd0e7d241fd6b97ded7470bf26f53"
+    },
+    {
+      "path": "nba/results/nba_live/h5_rules_spread_L30.csv",
+      "bytes": 4102,
+      "sha256": "9782e8d74789c133d1a4891be89950b837c9fffa4f447674c607cbf61b5c1267"
+    },
+    {
+      "path": "nba/results/nba_live/h5_rules_spread_L60.csv",
+      "bytes": 4095,
+      "sha256": "2013d81f43def5e45f916a7ef892efb9e61bb12fd16aae2dcf15a820d79585c2"
+    },
+    {
+      "path": "nba/results/nba_live/h5_rules_total.csv",
+      "bytes": 4090,
+      "sha256": "a4c48b382735e0933ea30ed9571693bf876658ec9e83390d6fb6db626cc8f669"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_resid_spread.csv",
+      "bytes": 2719,
+      "sha256": "d7dbaa8d7cba40291e037ddf1381519869108dddea264b797451978ef7ee29fc"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_resid_spread_L30.csv",
+      "bytes": 2729,
+      "sha256": "5bf6ef7c408a878c2c8f16c36c34e4c0a6156c8f9fd748e3fdde8e10b3876a55"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_resid_spread_L60.csv",
+      "bytes": 2748,
+      "sha256": "0fb5edf4a02503038c5b6aaf9e359d8f778b550cd26ec9fde7665fa8e6aedab6"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_resid_spread_naive.csv",
+      "bytes": 2795,
+      "sha256": "ad6afdc2329e042c5ba391aea450793f627ed594fb703e6f64455dc9ab9a03be"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_resid_spread_w30.csv",
+      "bytes": 2729,
+      "sha256": "7cb032cf4a946a8534d5f104821d5ebbf255cf813f01b3135a94c77c4144e17b"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_resid_spread_w5.csv",
+      "bytes": 2675,
+      "sha256": "9503f131dcaeb4cc0e7d7e62141902abd8045dd09fd7a1759561ed63e61b22d2"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_resid_total.csv",
+      "bytes": 2779,
+      "sha256": "18a2915e51997fd51f34a2ea74762f284f4a94a014579c9e178f6ebbccf42175"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_rules_spread.csv",
+      "bytes": 6523,
+      "sha256": "dca8470249dc94f8aa78217395730ce7f74425e94b86e3e76c47c1b6ab77dfd4"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_rules_spread_L30.csv",
+      "bytes": 6604,
+      "sha256": "98cd72c8bc380c4620fc6b8dbd75cb3168554748ea0d8c3c965317e08029f65d"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_rules_spread_L60.csv",
+      "bytes": 6575,
+      "sha256": "20271a26f03594d024e60b22168979dc48500cb269871301bafb62141551a5c9"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_rules_spread_naive.csv",
+      "bytes": 6702,
+      "sha256": "18c85d8d1a5a59bc28aa6708858245a8386b06edb63f9c194cb5db04dea9d772"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_rules_spread_w30.csv",
+      "bytes": 6539,
+      "sha256": "67b3275515bb5ec9531b53407b50edd8e44478cf26432feb38eec78818590175"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_rules_spread_w5.csv",
+      "bytes": 6499,
+      "sha256": "ffdb86e5b9ceec805be2836fb095d4ddac8790e57a47ead8f1d5e3c337225869"
+    },
+    {
+      "path": "nba/results/nba_live/h5b_rules_total.csv",
+      "bytes": 6674,
+      "sha256": "92e69de7bcff6babf9a80f713385804f19eee39ab95bfd2ae10753eacdd32fd6"
+    },
+    {
+      "path": "nba/results/nba_live/h5c_resid.csv",
+      "bytes": 2733,
+      "sha256": "c68a8f30fc0d364e66895df5c99d5111cb460f17d1e3f60d79ca9e084fa55b82"
+    },
+    {
+      "path": "nba/results/nba_live/h5c_rules.csv",
+      "bytes": 12331,
+      "sha256": "03cccbf07d835b91935941d2eff3da09ed1ec1630f44aae3eb01a3135fa52d18"
+    },
+    {
+      "path": "nba/results/nba_live/h6_anchor.csv",
+      "bytes": 1066,
+      "sha256": "ffdf5de62bfc054265f4d1409ca911aa858f53a7fc4824fbef399725f18ff034"
+    },
+    {
+      "path": "nba/results/nba_live/h6_fade_gap.csv",
+      "bytes": 11024,
+      "sha256": "cf085ec3c5eed2b01fb24ff593afb27d91b77eeffd15d8e975fe219fdabf31d5"
+    },
+    {
+      "path": "nba/results/nba_live/h6_stops.csv",
+      "bytes": 3079,
+      "sha256": "59d1481842348921eb052405ee11bde0af752db41d516159286106bd800897c7"
+    },
+    {
+      "path": "nba/results/nba_live/model_fit.csv",
+      "bytes": 6544,
+      "sha256": "c1537ff1e0cffe3f56c98f11d04d206c7cdc233edb07684c475db3d943421114"
+    },
+    {
+      "path": "nba/results/nba_live/summary.json",
+      "bytes": 291012,
+      "sha256": "2805083bf705afb2873b3de3f6efa649378744e5461852e47bb37b656d5ebfa2"
+    },
+    {
+      "path": "nba/results/nba_pre/REPORT.md",
+      "bytes": 8658,
+      "sha256": "4498ec6dd2faac45b354740b32e3142211deae7ff119e7bbe86da841d3edacce"
+    },
+    {
+      "path": "nba/results/nba_pre/depth_ml_pregame.csv",
+      "bytes": 366,
+      "sha256": "17fcbd7cc94c776f8afb4ccaecc0983759bb773bf51d88dd3f693a56a8acfe4d"
+    },
+    {
+      "path": "nba/results/nba_pre/h1_calib_buckets.csv",
+      "bytes": 5510,
+      "sha256": "d9c6f20b3c5eadf9aef99861f51cc8c750fb46480f9e44c3334039e4850029db"
+    },
+    {
+      "path": "nba/results/nba_pre/h1_heavy_fav.csv",
+      "bytes": 6603,
+      "sha256": "fde56db1d2ec496d1d53379bd822ae079fd7546ffb41f7c9899a6aedc167a1ef"
+    },
+    {
+      "path": "nba/results/nba_pre/h1_logit.csv",
+      "bytes": 1078,
+      "sha256": "cf61f15b165a980621675a2df89e28c725557b04cc7dfa1aad7ccb24369b85f0"
+    },
+    {
+      "path": "nba/results/nba_pre/h1_residual_by.csv",
+      "bytes": 5011,
+      "sha256": "0bd0eacb0ceeb2fcf157035b9eac18b50b1e4de18d7a2bbfbcf4cf5c563940dd"
+    },
+    {
+      "path": "nba/results/nba_pre/h1_strategies.csv",
+      "bytes": 14873,
+      "sha256": "9e789474244dc29f2b53f908547235ee6483fbe06898b3313aa5002118b65bc7"
+    },
+    {
+      "path": "nba/results/nba_pre/h1b_hist_heavy_fav.csv",
+      "bytes": 3223,
+      "sha256": "c925ead1c720cfffab4f8b08c6a3e055661172ed21ea16398f1a7100eb9bddb5"
+    },
+    {
+      "path": "nba/results/nba_pre/h2_gap_dist.csv",
+      "bytes": 814,
+      "sha256": "bc0c0eda44c86b6433b1cdc0a2f1d8d3a577a15e1f4ae573ce0161fa39b5f563"
+    },
+    {
+      "path": "nba/results/nba_pre/h2_info.csv",
+      "bytes": 1910,
+      "sha256": "00a708d4a97df36d9341d09b50a29fdea44642e6ed98e5c947de79b8eae35b87"
+    },
+    {
+      "path": "nba/results/nba_pre/h2_value_rules.csv",
+      "bytes": 34320,
+      "sha256": "db08c0104829dc41386561000c53c35c3cc6761acbda953cf72534e1faee0b27"
+    },
+    {
+      "path": "nba/results/nba_pre/h3_accuracy.csv",
+      "bytes": 1106,
+      "sha256": "f82be43ac7d1721bf559dc5baa5bbcb635287a35c1f51f25af541532eab4d86f"
+    },
+    {
+      "path": "nba/results/nba_pre/h3_autocorr.csv",
+      "bytes": 1471,
+      "sha256": "b22c48619084608e76756a796692eec5a2b58ff73b5a75aa00e541213c0c8cf9"
+    },
+    {
+      "path": "nba/results/nba_pre/h3_drift.csv",
+      "bytes": 1839,
+      "sha256": "03119ecf416f1f5a0b50896669d3ff2ad30885c620019d6f2b7499bca281fd7b"
+    },
+    {
+      "path": "nba/results/nba_pre/h3_rules.csv",
+      "bytes": 65523,
+      "sha256": "65ab67745dc8dd3636b1929e1bc34773158000539b42dc4b881248d91f10c101"
+    },
+    {
+      "path": "nba/results/nba_pre/h4_calib.csv",
+      "bytes": 2504,
+      "sha256": "8a9671f0f5f9332800e7cc287eece1ff9ea19777c61735ffb4730259357f91a5"
+    },
+    {
+      "path": "nba/results/nba_pre/h4_ladder_violations.csv",
+      "bytes": 234,
+      "sha256": "3931b7d2ec1233c98150959299f8d1cc8ba68e21dd979f9df7d3439c64453813"
+    },
+    {
+      "path": "nba/results/nba_pre/h4_ml_vs_spread.csv",
+      "bytes": 1030,
+      "sha256": "eef2cd75b7c1c402f9d71d2e0f3e50291fbe9aba426351021b435be57de1d1f9"
+    },
+    {
+      "path": "nba/results/nba_pre/h4_overunder.csv",
+      "bytes": 1222,
+      "sha256": "cfc3d6dd48d1e8a3f691ea034af432e14a6c63a631a52ccc6772f67a5bed75ef"
+    },
+    {
+      "path": "nba/results/nba_pre/h4_sigma.csv",
+      "bytes": 118,
+      "sha256": "9eb65e2c7e98228c2c3c7de57871267f0d9180d9db5f2a44fdbccb9473149fe3"
+    },
+    {
+      "path": "nba/results/nba_pre/h4_tails.csv",
+      "bytes": 3234,
+      "sha256": "2b646a0a463c91a0156cab3ed1796be0602947e211f4b352d51134d2ab392523"
+    },
+    {
+      "path": "nba/results/nba_pre/h4_value.csv",
+      "bytes": 14096,
+      "sha256": "f10bf65bd046c58880c6ce1777e84e2c5be3f9ed4c5313aee10d2fcbd9f37c19"
+    },
+    {
+      "path": "nba/results/nba_pre/h5_persistence_summary.csv",
+      "bytes": 85,
+      "sha256": "8435daf7e94881a5e48c4b5c5cdbe6560382e5b331811a9dace572e9bb46e3ea"
+    },
+    {
+      "path": "nba/results/nba_pre/h5_regression.csv",
+      "bytes": 959,
+      "sha256": "533272149d0ff84e2d8eac60a11b912fbdd92716ddf9cf7acf2bebb0c1267c2f"
+    },
+    {
+      "path": "nba/results/nba_pre/h5_rules.csv",
+      "bytes": 1689,
+      "sha256": "f9d28273b25f65d6b2292701524a5475f406fb6500e77737974caded584a8d14"
+    },
+    {
+      "path": "nba/results/nba_pre/h5_team_persistence.csv",
+      "bytes": 1285,
+      "sha256": "2fa3a82c02042d27715a6440726347dbcfb3cda313c5e2ebd85f27e20e3f2cf8"
+    },
+    {
+      "path": "nba/results/nba_pre/h6_summary.csv",
+      "bytes": 10766,
+      "sha256": "a17b3aa7d2dd27a2990c0e1158cc2a0f97513c778b744c9fde0c587ed5e68f20"
+    },
+    {
+      "path": "nba/results/nba_pre/h6_trades.csv",
+      "bytes": 401233,
+      "sha256": "8d9ab81044a3d9914c50410b292ecea5efbb244f73a6a3a5fee156f80f1f0ac1"
+    },
+    {
+      "path": "nba/results/nba_pre/selection.csv",
+      "bytes": 961,
+      "sha256": "8402bd24244c7df8988ff94acd3fcea08ed10194d86aefe6be3933d6c553ad0b"
+    },
+    {
+      "path": "nba/scripts/nba_data/build_tables.py",
+      "bytes": 35267,
+      "sha256": "311f65e3c4507a1ad3d7d45727869be3099975d8009b191bdfda55aada14dede"
+    },
+    {
+      "path": "nba/scripts/nba_data/common.py",
+      "bytes": 6958,
+      "sha256": "4d5090578788df8adb39d6c6732c593c491c9e33d50f10c580f10597e1ab2453"
+    },
+    {
+      "path": "nba/scripts/nba_data/discover_gamma.py",
+      "bytes": 3732,
+      "sha256": "5d816b9dfa3fe09f8fddd8930fe22a8e67f85699d12319478361c3127c0e6b69"
+    },
+    {
+      "path": "nba/scripts/nba_data/espn_fallback.py",
+      "bytes": 3514,
+      "sha256": "eaa7b5245768d554609648eb9599e7bcc2d4b76da468f8be8f25c32938512725"
+    },
+    {
+      "path": "nba/scripts/nba_data/espn_fetch.py",
+      "bytes": 3870,
+      "sha256": "03608ab0a739ba15a4eb2e21b4c2c390a9dbe0eec4b164e88e359d0dd593fa9c"
+    },
+    {
+      "path": "nba/scripts/nba_data/espn_tables.py",
+      "bytes": 17948,
+      "sha256": "93555914341ac7d5c48926492143981054109263c224ec4f8d9189a6c7305140"
+    },
+    {
+      "path": "nba/scripts/nba_data/fetch_prices.py",
+      "bytes": 4773,
+      "sha256": "a59fafa389fbde19726062e0f57a12eb22267160900a48751fb834352828346b"
+    },
+    {
+      "path": "nba/scripts/nba_data/fetch_trades.py",
+      "bytes": 6544,
+      "sha256": "599dbaf2d1b51e9d2db1d0b3a82d8b7ebb7447fb2b896ab781106740ad40ef10"
+    },
+    {
+      "path": "nba/scripts/nba_data/final_stats.py",
+      "bytes": 1813,
+      "sha256": "abf5629c4dfab5e3f4e0d3e900049e29facc11b51e6066d01b66b06a3f2e625c"
+    },
+    {
+      "path": "nba/scripts/nba_data/gamma_tables.py",
+      "bytes": 17773,
+      "sha256": "1823fcb433edd330a38fd5e5f04f51854bcdf18612504f55323a887561ec60c3"
+    },
+    {
+      "path": "nba/scripts/nba_data/make_report.py",
+      "bytes": 30964,
+      "sha256": "04fc98beff399493905f72859f3043a19b6a2ca03b9c275ab285155c8652bcf2"
+    },
+    {
+      "path": "nba/scripts/nba_data/spot_check.py",
+      "bytes": 2126,
+      "sha256": "53bca2fdff14d9fedbb357df132ca512fdf2b24fdbf460345a05b00115cb0c0c"
+    },
+    {
+      "path": "nba/scripts/nba_live/alignment.py",
+      "bytes": 4389,
+      "sha256": "7940c989d8a585ee414509964e282782587e3265135c5f727b884a9adf329cf9"
+    },
+    {
+      "path": "nba/scripts/nba_live/alignment_flags.py",
+      "bytes": 1286,
+      "sha256": "501c1a9478d22dace1ab2402a46adbdf8c47cca7086eed97ddcdb0b3caa51201"
+    },
+    {
+      "path": "nba/scripts/nba_live/build_base.py",
+      "bytes": 7593,
+      "sha256": "d45d97c6e79280762e8eaa27165f46a3cd90fcba2c90b86cd4f622b74edbe295"
+    },
+    {
+      "path": "nba/scripts/nba_live/build_panel.py",
+      "bytes": 5413,
+      "sha256": "00c868d2dcc0ca279ea062c591021a5b9076d253db09df58f9d18b114f6197cf"
+    },
+    {
+      "path": "nba/scripts/nba_live/common.py",
+      "bytes": 4865,
+      "sha256": "bec659877dd0133c42598e7ab227340fdf71c231b9ea66221bb235e2be378f0a"
+    },
+    {
+      "path": "nba/scripts/nba_live/depth.py",
+      "bytes": 2328,
+      "sha256": "2834a3b25a6b1a91e3086ac6af67fe224fa65ad13e815e34cdec8d93b1977c36"
+    },
+    {
+      "path": "nba/scripts/nba_live/explore_resid.py",
+      "bytes": 1376,
+      "sha256": "0921e16a058189265ae28726fe7c6aceddfe5fb70978d08b7a9581d5808b29f3"
+    },
+    {
+      "path": "nba/scripts/nba_live/features.py",
+      "bytes": 4617,
+      "sha256": "a49087324c7a2115de296a94cc5acd47eee357d9fd8fbf5d4fc004ec8b51edc9"
+    },
+    {
+      "path": "nba/scripts/nba_live/fetch_lines.py",
+      "bytes": 5886,
+      "sha256": "944bf6e8088f2d893b81eba0e1e08efc95b328b5d26edb57e82a5b6f38521a57"
+    },
+    {
+      "path": "nba/scripts/nba_live/fit_model.py",
+      "bytes": 7227,
+      "sha256": "f6a9bcdefea43305fa59d31dd39213e20ff2e01d6eb344cb567ca5338e7a4303"
+    },
+    {
+      "path": "nba/scripts/nba_live/h1_explore.py",
+      "bytes": 1413,
+      "sha256": "e78ab36e0dfa5a4205c55b90435ce4ef505e3b7c1f27f3ab9d3ca82de5bab23c"
+    },
+    {
+      "path": "nba/scripts/nba_live/h1_rules.py",
+      "bytes": 3625,
+      "sha256": "db59bcf8ac53fed308530f3a0478cd5c2e33c9961eb294c40206c7ae7a84fc1f"
+    },
+    {
+      "path": "nba/scripts/nba_live/h1_states.py",
+      "bytes": 3636,
+      "sha256": "1a39c560656229029b80b2c453f0fee1cddba036d19b7797111ec20dfe302410"
+    },
+    {
+      "path": "nba/scripts/nba_live/h1b_exec.py",
+      "bytes": 2176,
+      "sha256": "0dfa128b0fa89516a155cac6c5fdf69073ea4841bbe46cc1cfdbf7909c34aa31"
+    },
+    {
+      "path": "nba/scripts/nba_live/h2_calibration.py",
+      "bytes": 4488,
+      "sha256": "67176af2f7c7f79810eac2621a5f9add0407d42b4410db2bd62af434c560f6d1"
+    },
+    {
+      "path": "nba/scripts/nba_live/h3_momentum.py",
+      "bytes": 5899,
+      "sha256": "979238344abeb824fa12f43a4639bb798ee623a388286b41b3069410d99b4753"
+    },
+    {
+      "path": "nba/scripts/nba_live/h4_breaks.py",
+      "bytes": 6143,
+      "sha256": "bb9e2ec5a3d115c033e6fbf6f22eb411063a184b21b5fa39781dcf0b0a0214ca"
+    },
+    {
+      "path": "nba/scripts/nba_live/h5_lines.py",
+      "bytes": 11911,
+      "sha256": "bd276a5d4ed24f03e20bb8d503aa7242c504742ab8c8f1e0ca7fa476db3460b3"
+    },
+    {
+      "path": "nba/scripts/nba_live/h5b_exec.py",
+      "bytes": 3444,
+      "sha256": "1dab71a1549ac6e86906aac9c610c6f92b829e2fea859e0b576aaf903158a8f7"
+    },
+    {
+      "path": "nba/scripts/nba_live/h5c_xmarket.py",
+      "bytes": 3899,
+      "sha256": "15a611fbdb388d021a2bcf9acdf356fd3ef7e91c0d2b0562287e3935b369a7ce"
+    },
+    {
+      "path": "nba/scripts/nba_live/h5d_deep.py",
+      "bytes": 3804,
+      "sha256": "581a4a49914c59c62915792bf36fde71f1f778252d340d2e5028b74b69d85c42"
+    },
+    {
+      "path": "nba/scripts/nba_live/h6_anchor.py",
+      "bytes": 1410,
+      "sha256": "f35e29074408fa9daf9b839daf731f63c7f3aeec09c2bc38a9957fd71c40b530"
+    },
+    {
+      "path": "nba/scripts/nba_live/h6_fade_gap.py",
+      "bytes": 2579,
+      "sha256": "09baebd09dc54d0e219457868530c5e6d6a1e2f8e875f927045192adb7516cfd"
+    },
+    {
+      "path": "nba/scripts/nba_live/h6_stops.py",
+      "bytes": 7904,
+      "sha256": "71636d579d44ec3f70d3788311d21766dc7b8cc33e4f7e95834287a702641167"
+    },
+    {
+      "path": "nba/scripts/nba_live/select_best.py",
+      "bytes": 3793,
+      "sha256": "6aa1a0e3412b7f7cf4a7710c32f8b1e42f073f4fee12b889962a0b68272c0c97"
+    },
+    {
+      "path": "nba/scripts/nba_live/summary.py",
+      "bytes": 1075,
+      "sha256": "80c617a030cba89bb1d4b5f2ee8dbe87a9ba94a4dec58e9ac3f394d5267f2eda"
+    },
+    {
+      "path": "nba/scripts/nba_pre/c1_consolidate.py",
+      "bytes": 2823,
+      "sha256": "516fa2e5448374d29c4d221e8f2eba7542378f1904a38e07126e6ceacc773c13"
+    },
+    {
+      "path": "nba/scripts/nba_pre/common_pre.py",
+      "bytes": 5018,
+      "sha256": "842cc9d69c4620ca1fb48ffc8c4abb9cddbbdbb3ca71e417648e10e65cbec015"
+    },
+    {
+      "path": "nba/scripts/nba_pre/f1_fetch.py",
+      "bytes": 7547,
+      "sha256": "a90495e427a1a4a882759d81f42684dab8e0e1196995274bf2c43559e634e4f0"
+    },
+    {
+      "path": "nba/scripts/nba_pre/f2_espn_hist.py",
+      "bytes": 4240,
+      "sha256": "57e147827d7939b7cc423840975250de833c69e7340fbdd851a182cab14169fa"
+    },
+    {
+      "path": "nba/scripts/nba_pre/h1_calibration.py",
+      "bytes": 6923,
+      "sha256": "f6e4ff644d9333c5468de7f1fbca9445365a4affaaf1c72d431fcf35484bedc4"
+    },
+    {
+      "path": "nba/scripts/nba_pre/h1b_hist_heavy_fav.py",
+      "bytes": 3036,
+      "sha256": "847d81dc058ef8232d13194239122c6071ef308a0cb4e43a7fd257df99ca8cfa"
+    },
+    {
+      "path": "nba/scripts/nba_pre/h2_book.py",
+      "bytes": 4640,
+      "sha256": "f002370e7e112c3005faf3f4d688a1a86e838efe1e4f223de74451fdfce0f620"
+    },
+    {
+      "path": "nba/scripts/nba_pre/h3_dynamics.py",
+      "bytes": 6740,
+      "sha256": "9e46c19362b59edb00a5cd28e06e490ea8576292eb8b6f5aa1e9d1d7056f4997"
+    },
+    {
+      "path": "nba/scripts/nba_pre/h4_lines.py",
+      "bytes": 12299,
+      "sha256": "fee3eeae9dd1a756c6218ac7b7444b51394b41b670cd960e8e7a8e84187560fe"
+    },
+    {
+      "path": "nba/scripts/nba_pre/h5_situational.py",
+      "bytes": 4352,
+      "sha256": "5c8ace65c12a4d12ae9f20ee8b1a75f27ef64321c79d805f34b7cfbfd1d48b9d"
+    },
+    {
+      "path": "nba/scripts/nba_pre/h6_live_rule.py",
+      "bytes": 11389,
+      "sha256": "572834bf010f390040a08a9be6245da41c28ac0811ddf7ffb085e8a78e1b2d5d"
+    },
+    {
+      "path": "nba/scripts/nba_pre/p1_ml_panel.py",
+      "bytes": 8092,
+      "sha256": "8287dfa51502fb89063900407895d54f2105747ad390676986905c9da3c1913e"
+    },
+    {
+      "path": "nba/scripts/nba_pre/p2_lines_panel.py",
+      "bytes": 5989,
+      "sha256": "2242b8b60c5277167e1867afd5e1577900ac5845ae9853a1919dc05567116d30"
+    },
+    {
+      "path": "nba/scripts/nba_pre/s1_select.py",
+      "bytes": 2357,
+      "sha256": "d96cc70d0a6e37e2c6c53720beaffedd65523b6580bdb4125d4fb151439ad01b"
+    }
+  ]
+}

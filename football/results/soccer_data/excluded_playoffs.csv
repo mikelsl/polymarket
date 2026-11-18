@@ -1,0 +1,4 @@
+match_id,competition,kickoff_utc,home_team_pm,away_team_pm,pm_result,vol_home,vol_draw,vol_away
+bun-pad-wol-2026-05-25,Bundesliga relegation play-off,2026-05-25 18:30:00+00:00,Paderborn,Wolfsburg,D,520001.405113,108505.20212699991,531925.206951001
+fl1-se-nic-2026-05-26,Ligue 1 promotion/relegation play-off,2026-05-26 18:45:00+00:00,Saint-Etienne,Nice,D,151863.7589549999,46729.339527,209893.1771549999
+fl1-nic-se-2026-05-29,Ligue 1 promotion/relegation play-off,2026-05-29 18:45:00+00:00,Nice,Saint-Etienne,H,107492.20985799993,10017.964046000001,73127.06666699977
